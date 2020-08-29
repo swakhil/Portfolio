@@ -79,9 +79,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'portfolio',
-        'USER': 'root',
-        'PASSWORD': '',
-        'PORT': '', 
+        'USER': 'swakhil',
+        'PASSWORD': 'password',
+        'HOST': '127.0.0.1',
+        'PORT': '3306', 
     }
 }
 
