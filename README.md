@@ -17,8 +17,13 @@ django-admin startapp appname
 python3 manage.py runserver
 
 ----------------------------------------
+	Creating a Virtual Environment(For Ubuntu 18.0 & above)
+sudo apt install virtualenv
+virtualenv --python=python3 myvenv
+	
+----------------------------------------
 	Virtual Environment
-myvenv\Scripts\activate
+source myvenv\Scripts\activate
 
 ----------------------------------------
 	Create migrations
